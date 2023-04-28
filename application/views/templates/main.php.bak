@@ -61,29 +61,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
     </head>
 
-<body>
-<div class="headerGov">
-    <div class="top">
-        <a href="https://www.gov.co/" target="_blank" alt="Gov.co"><img src="https://css.mintic.gov.co/mt/mintic/img/header_govco.png" alt="Gov Co" style="max-height: 20px;"></a>
-    </div>
-</div>
+    <body>
     <!--
         |
         | ::::::: Menu
         |
     -->
     <style>
-    .header {
-        background: #fff;
-        box-shadow: 2px 2px 4px #80808000;
-        height: 110px;
-        width: 100%;
-    }
+        .header {
+            background: #fff;
+            box-shadow: 2px 2px 4px #80808000;
+            height: 110px;
+            width: 100%;
+        }
     </style>
-    
 
-  
-   
+
     <div id="welcomeMenuBox">
 
         <br>
@@ -214,25 +207,25 @@
             });
         </script>
         <style>
-        @media (min-width: 1200px) {
-            .container-xl {
-                max-width: 100%;
+            @media (min-width: 1200px) {
+                .container-xl {
+                    max-width: 100%;
+                }
             }
-        }
 
 
-        .float-right {
+            .float-right {
 
-            display: block;
-            float: right;
+                display: block;
+                float: right;
 
-            width: auto;
+                width: auto;
 
-            margin-right: 60px;
+                margin-right: 60px;
 
-            font-size: 0.85em;
-            margin-top: -10px;
-        }
+                font-size: 0.85em;
+                margin-top: -10px;
+            }
 
 
             .ms-signInLink {
