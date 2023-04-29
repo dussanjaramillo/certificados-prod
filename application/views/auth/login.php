@@ -52,14 +52,14 @@ session_start();
         margin-bottom: 28px;
         font-weight: 800;
         font-size: 28px;
-        color: #ff6719;
+        color: #01AF01;
     }
 
     .login-sec h2:after {
         content: " ";
         width: 100px;
         height: 5px;
-        background: #FEB58A;
+        background: #00B100;
         display: block;
         margin-top: 10px;
         border-radius: 3px;
@@ -79,7 +79,7 @@ session_start();
     a:visited {
 
         outline: none;
-        color: #ff6719;;
+        color: #01AF01;;
 
     }
 </style>
@@ -181,7 +181,7 @@ session_start();
                     <tr HEIGHT="60">
                         <td colspan="2">
                             <center>
-                                <button style="width: 100px; color: white; background-color: #F27323;padding: 3px 10px;
+                                <button style="width: 100px; color: white; background-color: #008000;padding: 3px 10px;
      border: 1px solid #ababab; " type="submit" name="submit" value="Ingresar">
                                     Ingresar
                                 </button>

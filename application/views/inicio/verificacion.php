@@ -68,14 +68,14 @@
         margin-bottom: 28px;
         font-weight: 800;
         font-size: 28px;
-        color: #ff6719;
+        color: #01AF01;
     }
 
     .login-sec h2:after {
         content: " ";
         width: 100px;
         height: 5px;
-        background: #FEB58A;
+        background: #00B100;
         display: block;
         margin-top: 10px;
         border-radius: 3px;
@@ -243,7 +243,7 @@
 
                                     <button id="cargar" class="btn btn-primary btn-sm" onclick="aceptar()">Guardar
                                     </button>
-                                    <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i
+                                    <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i
                                                 class="icon-remove"></i> Cancelar</a>
                             </center>
                         </div>

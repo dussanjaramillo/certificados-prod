@@ -297,7 +297,7 @@
 
             .row2 {
                 color: #fff;
-                background-color: #ff6b00;
+                background-color: #008000;
                 z-index: 600;
             }
 

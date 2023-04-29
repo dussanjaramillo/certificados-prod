@@ -216,7 +216,7 @@
                             >Generar
                             </button>
         </form> &nbsp; &nbsp;
-        <?php echo anchor(base_url('index.php/auth/consulta'), '<i class="icon-remove"></i> Cancelar', 'class="btn btn-info"'); ?>
+        <?php echo anchor(base_url('index.php/auth/consulta'), '<i class="icon-remove"></i> Cancelar', 'class="btn btn-warning"'); ?>
 
         </center>
     </div>

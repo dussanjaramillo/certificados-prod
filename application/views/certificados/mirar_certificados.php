@@ -38,7 +38,7 @@ input {
             <div class="btn-group">
 
             <td colspan="2" align="center"><button id="consultar"  class="btn btn-primary btn-sm">Consultar</button>
-            <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i class="icon-remove"></i>Cancelar</a>
+            <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i class="icon-remove"></i>Cancelar</a>
             </td>
         </center>
     </div>

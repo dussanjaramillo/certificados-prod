@@ -147,7 +147,7 @@
                                 </button>
                             </div>
                             <div class="col-sm">
-                                <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i class="icon-remove"></i> Cancelar</a>
+                                <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i class="icon-remove"></i> Cancelar</a>
                             </div>
                     </center>
                 </div>
@@ -176,7 +176,7 @@
 
 
                 <div class="col-sm">
-                    <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i class="icon-remove"></i> Cancelar</a>
+                    <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i class="icon-remove"></i> Cancelar</a>
                 </div>
         </center>
     </div>
@@ -225,7 +225,7 @@ if ($registro != "" && $validacion != "") { ?>
                         </button>
                     </div>
                     <div class="col-sm">
-                        <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i class="icon-remove"></i> Cancelar</a>
+                        <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i class="icon-remove"></i> Cancelar</a>
                     </div>
             </center>
         </div>

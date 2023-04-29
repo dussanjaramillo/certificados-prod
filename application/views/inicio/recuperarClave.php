@@ -75,7 +75,7 @@
                                 type="submit">Recupera
                         </button>
                     </div>
-                    <div class="col-sm">  <?php echo anchor(base_url().'index.php/auth/consulta', '<i class="icon-remove"></i> Cancelar', 'class="btn btn-info"'); ?></div>
+                    <div class="col-sm">  <?php echo anchor(base_url().'index.php/auth/consulta', '<i class="icon-remove"></i> Cancelar', 'class="btn btn-warning"'); ?></div>
             </center>
         </div>
     </div>
@@ -103,7 +103,7 @@ echo form_open_multipart("iniciocertificados/verificacion", $attributes);
         <center>
             <div class="btn-group">
                 <div class="col-sm">
-                    <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i
+                    <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i
                                 class="icon-remove"></i>
                         Cancelar</a>
                 </div>
@@ -153,7 +153,7 @@ if ($registro != "" && $validacion != "") { ?>
                         </button>
                     </div>
                     <div class="col-sm">
-                        <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-info"><i class="icon-remove"></i> Cancelar</a>
+                        <a href="<?= base_url('index.php/auth/consulta') ?>" class="btn btn-warning"><i class="icon-remove"></i> Cancelar</a>
                     </div>
             </center>
         </div>
